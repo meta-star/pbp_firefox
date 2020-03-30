@@ -1,0 +1,47 @@
+.bg-color {
+    background-color: #f5e3b2;
+}
+
+.wrapper {
+    text-align: center;
+    font-size: 20px;
+    color: #f12167;
+}
+
+.wrapper h1 {
+    font-size: 64px;
+}
+
+.reason {
+    margin: 0 auto;
+    padding-bottom: 15px;
+    width: 25%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    color: #0373b2;
+}
+
+.reason h3 {
+    padding: 15px 60% 0 0;
+}
+
+.reason code {
+    font-size: 15px;
+}
+
+.reason code #url {
+    color: #da0700;
+}
+
+footer,
+footer a {
+    margin-top: 5%;
+    color: #000;
+    text-align: center;
+}
+
+.copyright {
+    text-align: right;
+}

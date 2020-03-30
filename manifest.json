@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "PBP_Demo-FireFox",
-    "description": "PBP_Demo-FireFox",
+    "name": "Phishing Blocker for Firefox",
+    "description": "An example for Phishing Blocker Project. ",
     "version": "1.0.0",
     "browser_action": {
         "default_popup": "popup.html",
-        "default_title": "PBP_Demo-FireFox"
+        "default_title": "pbpf"
     },
     "content_scripts": [
         {
@@ -14,7 +14,8 @@
             ],
             "js": [
                 "socket.js",
-                "listen.js"
+                "listen.js",
+                "warning_page/report.js"
             ],
             "run_at": "document_start"
         }
