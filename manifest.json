@@ -1,11 +1,17 @@
 {
     "manifest_version": 2,
     "name": "Phishing Blocker for Firefox",
-    "description": "An example for Phishing Blocker Project. ",
+    "author": "SuperSonic <supersonic@livemail.tw>",
+    "description": "An example for Phishing Blocker Project.",
+    "homepage_url": "https://project.starinc.xyz/pbp/",
+    "icons": {
+        "48": "logo.svg",
+        "96": "logo.svg"
+    },
     "version": "1.0.0",
     "browser_action": {
         "default_popup": "popup.html",
-        "default_title": "pbpf"
+        "default_title": "Phishing Blocker for Firefox"
     },
     "content_scripts": [
         {
@@ -33,6 +39,6 @@
         "webRequestBlocking"
     ],
     "omnibox": {
-        "keyword": "PBP"
+        "keyword": "pbpf"
     }
 }
