@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-let socket = new WebSocket('wss://client.starinc.xyz/pbp/ws');
+let socket = new ReconnectingWebSocket('wss://client.starinc.xyz/pbp/ws');
 
 socket.addEventListener('message', function (event) {
     console.log('Message from server ', event.data);

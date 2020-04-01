@@ -19,6 +19,7 @@
                 "<all_urls>"
             ],
             "js": [
+                "rcws.min.js",
                 "socket.js",
                 "listen.js",
                 "warning_page/report.js"
